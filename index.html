@@ -3,9 +3,14 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Home</title>
+	<title>Histoire</title>
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 	<meta name="twitter:widgets:theme" content="dark">
+
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="MyFirstGit.css">
 </head>
 
 <body>
@@ -24,7 +29,9 @@
 		</ul>
 	</nav>
 
-	<section>
+	<div>
+			<section>
+			<div class="floatL">
 			<article>
 				<h3>Pic1</h3>
 				<img src="https://pbs.twimg.com/profile_images/3120190871/b106065bdae74888ef579464d8e8d039_400x400.png">
@@ -46,7 +53,8 @@
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</article>
-
+			</div>
+			<div class="floatR">
 			<article>
 				<h3>Pic3</h3>
 				<img src="http://upload.wikimedia.org/wikipedia/commons/3/37/Peuples_celtes_en_armorique.png">
@@ -67,34 +75,36 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
 			</article>
-	</section>
+			</section>
 
-	<aside>
+			<aside>
 
-	<img src="http://www.lacaravaneduweb.com/wp-content/uploads/2014/03/recherche-annuaires1.png">
-<h2>Recherche un article</h2>
+			<img src="http://www.lacaravaneduweb.com/wp-content/uploads/2014/03/recherche-annuaires1.png">
+			<h2>Recherche un article</h2>
 
-<form method="get" action="">
-<table cellpadding="0px" cellspacing="0px">
-<tr>
-<td style="border-style:solid;border-color:#CCCCCC;border-width:1px;">
-<input placeholder="blabla" type="text" name="zoom_query" style="width:100px; border:0px solid; height:17px; padding:0px 3px; position:relative;">
-</td>
-<td style="border-style:solid;border-color:#CCCCCC;border-width:0px;">
-<input type="submit" value="OK" style="border-style: none; background: url('searchbutton2.gif') no-repeat; width: 24px; height: 22px;">
-</td>
-</tr>
-</table>
-</form>
-	<i class="fa fa-star"></i>
-<h2>Dernier tweets</h2>
+			<form method="get" action="">
+			<table cellpadding="0px" cellspacing="0px">
+			<tr>
+			<td style="border-style:solid;border-color:#CCCCCC;border-width:1px;">
+			<input placeholder="blabla" type="text" name="zoom_query" style="width:100px; border:0px solid; height:17px; padding:0px 3px; position:relative;">
+			</td>
+			<td style="border-style:solid;border-color:#CCCCCC;border-width:0px;">
+			<input type="submit" value="OK" style="border-style: none; background: url('searchbutton2.gif') no-repeat; width: 24px; height: 22px;">
+			</td>
+			</tr>
+			</table>
+			</form>
+			<i class="fa fa-star" id = "star"></i>
+			<h2>Dernier tweets</h2>
 
-<a class="twitter-timeline" href="https://twitter.com/daijinNX" data-widget-id="510759055623593986">Tweets de @daijinNX</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	</aside>
+			<a class="twitter-timeline" href="https://twitter.com/daijinNX" data-widget-id="510759055623593986">Tweets de @daijinNX</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</aside>
+	</div>
 
-	<footer>
+	<footer id = "clear" class = "align">
 		<i class="fa fa-facebook"></i>
 		<p>Je veux m'inscrire à la NL!</p>
 		<i class="fa fa-twitter"></i>

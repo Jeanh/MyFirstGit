@@ -1,0 +1,70 @@
+header h1{
+	color: pink;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+
+header{
+	text-align: center;
+}
+
+img{
+	border-radius: 100%;
+	width: 100px;
+
+}
+
+nav li {
+	display: inline;
+	padding: 20px;
+	/*text-align: right; SURTOUT PENSER BLOCK*/
+}
+
+nav ul {
+	text-align: center;
+}
+
+section {
+	float: left;
+	width: 70%;
+}
+
+aside {
+	float: right;
+	width: 30%;
+}
+
+#clear {
+	clear: both;
+}
+
+footer i, footer p {
+	display: inline;
+	text-align: center;
+	padding: 20px;
+}
+
+.floatL {
+	float: left;
+	width: 50%;
+
+}
+
+.floatR {
+	float: right;
+	width: 50%;
+}
+#clear1 {			/*not used ? */
+	clear: both;
+}
+
+footer {
+	text-align: center;
+}
+
+#star {				/*PB to center font awsome*/	
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
